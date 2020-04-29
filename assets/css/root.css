@@ -1,6 +1,12 @@
 :root{
     /* Font Family */
-    --Reset-FontFamily: 'Arial';
+    --Reset-FontFamily: 'open_sansregular', sans-serif;
+
+    /* Font Weight */
+    --fontWeight-light: 'open_sanslight';
+    --fontWeight-semiBold: 'open_sanssemibold';
+    --fontWeight-bold: 'open_sansbold';
+    --fontWeight-extraBold: 'open_sansextrabold';
 
     /* ::Selection */
     --selection-bgColor: hsla(4, 88%, 41%, 0.2);
