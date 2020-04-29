@@ -1,4 +1,26 @@
 :root{
-    /* Reset */
+    /* Font Family */
     --Reset-FontFamily: 'Arial';
+
+    /* ::Selection */
+    --selection-bgColor: hsla(4, 88%, 41%, 0.2);
+
+    /* Body */
+    --body-bgColor: hsla(0, 0%, 98%, 1);
+
+    /* Colors */
+    --color-g1: hsla(4, 88%, 41%, 1);
+    --color-gshow: hsla(32, 100%, 46%, 1);
+    --color-globo: hsla(213, 95%, 45%, 1);
+    --color-gesporte: hsla(97, 100%, 31%, 1);
+    --color-greyClear: hsla(0, 0%, 33%, 1);
+    --color-greyDark: hsla(0, 0%, 20%, 1);
+    
+    /* Colors :hover */
+    --color-g1_hover: hsla(3, 89%, 35%, 1);
+    --color-gshow_hover: hsla(32, 100%, 39%, 1);
+    --color-globo_hover: hsla(213, 95%, 40%, 1);
+    --color-gesporte_hover: hsla(97, 100%, 26%, 1);
+    --color-greyClear_hover: hsla(0, 0%, 28%, 1);
+    --color-greyDark_hover: hsla(0, 0%, 16%, 1);
 }
