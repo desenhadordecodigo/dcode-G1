@@ -1,7 +1,7 @@
 /* Aqui vai a sua criatividade e bom gosto ;D */
-.ao-vivo{
-    animation: ao-vivo .7s ease-in 0s alternate infinite none running;
-    background-color: var(--color-aoVivo);
+.flag_ao-vivo{
+    animation: flag_ao-vivo .7s ease-in 0s alternate infinite none running;
+    background-color: var(--aoVivo-bgColor);
     border-radius: .2rem;
     color: var(--color-white);
     font-family: var(--fontWeight-bold);
@@ -9,7 +9,20 @@
     padding: .2rem .6rem;
     text-transform: uppercase;
 }
-@keyframes ao-vivo{
+
+@keyframes flag_ao-vivo{
+    from{color: var(--color-white);}
+    to{color: hsla(0, 0%, 100%, .6);}
+}
+@-o-keyframes flag_ao-vivo{
+    from{color: var(--color-white);}
+    to{color: hsla(0, 0%, 100%, .6);}
+}
+@-moz-keyframes flag_ao-vivo{
+    from{color: var(--color-white);}
+    to{color: hsla(0, 0%, 100%, .6);}
+}
+@-webkit-keyframes flag_ao-vivo{
     from{color: var(--color-white);}
     to{color: hsla(0, 0%, 100%, .6);}
 }

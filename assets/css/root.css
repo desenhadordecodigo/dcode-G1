@@ -22,7 +22,6 @@
     --color-gesporte: hsla(97, 100%, 31%, 1);
     --color-greyClear: hsla(0, 0%, 33%, 1);
     --color-greyDark: hsla(0, 0%, 20%, 1);
-    --color-aoVivo: hsla(4, 88%, 41%, 1);
     
     /* Colors :hover */
     --color-g1_hover: hsla(3, 89%, 35%, 1);
@@ -31,4 +30,7 @@
     --color-gesporte_hover: hsla(97, 100%, 26%, 1);
     --color-greyClear_hover: hsla(0, 0%, 28%, 1);
     --color-greyDark_hover: hsla(0, 0%, 16%, 1);
+
+    /* Flag Ao VIVO */
+    --aoVivo-bgColor: hsla(4, 88%, 41%, 1);
 }
