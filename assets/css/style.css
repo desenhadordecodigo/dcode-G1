@@ -1,1 +1,17 @@
 /* Aqui vai a sua criatividade e bom gosto ;D */
+.ao-vivo{
+    animation: ao-vivo 1s ease-in 0s alternate infinite none running;
+    background-color: var(--color-g1);
+    border: 1px solid var(--color-g1_hover);
+    border-radius: .2rem;
+    color: var(--color-white);
+    font-family: var(--fontWeight-bold);
+    font-size: .7rem;
+    padding: .2rem .6rem;
+    text-transform: uppercase;
+}
+
+@keyframes ao-vivo{
+    from{color: var(--color-white);}
+    to{color: hsla(0, 0%, 100%, .6);}
+}

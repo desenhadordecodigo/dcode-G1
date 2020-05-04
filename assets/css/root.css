@@ -15,6 +15,7 @@
     --body-bgColor: hsla(0, 0%, 98%, 1);
 
     /* Colors */
+    --color-white: hsla(0, 0%, 100%, 1);
     --color-g1: hsla(4, 88%, 41%, 1);
     --color-gshow: hsla(32, 100%, 46%, 1);
     --color-globo: hsla(213, 95%, 45%, 1);
