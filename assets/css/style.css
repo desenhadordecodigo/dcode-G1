@@ -4,9 +4,11 @@
     background-color: var(--aoVivo-bgColor);
     border-radius: .2rem;
     color: var(--color-white);
+    cursor: none;
     font-family: var(--fontWeight-bold);
     font-size: .7rem;
     padding: .2rem .6rem;
+    text-shadow: 1px 1px 0 var(--color-g1_hover);
     text-transform: uppercase;
 }
 
